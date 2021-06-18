@@ -1,0 +1,38 @@
+<h1>Report Covid Virus (2021)</h1>
+<div class="style1">
+</div>
+<br>
+<div class="sum">
+
+  <div class="head"> ติดเชื้อสะสม</div>
+  <div class="count"> {{datas?.Confirmed}}</div>
+  <div class="add"> [+{{datas?.NewConfirmed}}]</div>
+
+</div>
+<br>
+<div class="Recovered">
+
+  <div class="head"> หายแล้ว</div>
+  <div class="count"> {{datas?.Recovered}}</div>
+  <div class="add"> [+{{datas?.NewRecovered}}]</div>
+
+</div>
+
+<div class="Hospitalized">
+
+  <div class="head"> รักษาอยู่ใน รพ.</div>
+  <div class="count"> {{datas?.Hospitalized}}</div>
+  <div class="add"> [{{datas?.NewHospitalized}}]</div>
+
+</div>
+
+<div class="Deaths">
+
+  <div class="head">ตาย.</div>
+  <div class="count"> {{datas?.Deaths}}</div>
+  <div class="add"> [+{{datas?.NewDeaths}}]</div>
+
+</div>
+
+<div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align: right;">
+  อัพเดทข้อมูลล่าสุด {{datas?.UpdateDate}}

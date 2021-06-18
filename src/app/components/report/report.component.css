@@ -1,0 +1,58 @@
+div.style1 {
+	border-top: 3px double #8c8b8b;
+}
+div.sum {
+  border-radius: 10px;
+	background-color: #FFCCCC;
+  height:80px;
+  text-align: center;
+
+}
+div.Recovered {
+  border-radius: 10px;
+	background-color: #66CC99;
+  float:left;
+  height:80px;
+  width:398px;
+  text-align: center;
+}
+
+div.Hospitalized{
+  border-radius: 10px;
+  background-color: #00CCCC;
+  float:left;
+  height:80px;
+  width:402px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+div.Deaths{
+  border-radius: 10px;
+  background-color: gray;
+  float:left;
+  height:80px;
+  width:398px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+div.head
+{
+  color: white;
+  font-size: 15px;
+  font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.count
+{
+  color: white;
+  font-size: 30px;
+  font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.add
+{
+  color: white;
+  font-size: 15px;
+  font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
